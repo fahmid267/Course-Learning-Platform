@@ -19,7 +19,7 @@ function Page() {
 
           <span className="flex justify-center gap-1">
             <p>Don't have an account?</p>
-            <Link href = "/register">Sign Up</Link>
+            <Link href = "/register" className="border-b border-transparent hover:border-white">Sign Up</Link>
             </span>
         </div>
       </div>

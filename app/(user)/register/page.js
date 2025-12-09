@@ -21,7 +21,7 @@ function SignUpPage() {
 
           <span className="flex justify-center gap-1">
             <p>Have an account?</p>
-            <Link href = "/login">Sign In</Link>
+            <Link href = "/login" className="border-b border-transparent hover:border-white">Sign In</Link>
             </span>
         </div>
       </div>
