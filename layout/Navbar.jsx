@@ -1,10 +1,10 @@
-import React from "react";
-import {FaUser} from "react-icons/fa";
 import Link from "next/link";
+import React from "react";
+import { FaUser } from "react-icons/fa";
 
 function Navbar() {
   return (
-    <nav className="p-8 flex justify-between items-center">
+    <nav className="p-8 flex justify-between items-center shadow-md shadow-gray-500">
       <div>
         <Link href="/"><h2 className="text-4xl">CodeHub</h2></Link>
       </div>

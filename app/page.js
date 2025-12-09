@@ -1,7 +1,7 @@
 import CourseCard from "@/components/CourseCard";
 import Image from "next/image";
-import { metadata } from "./layout";
 import SlideShow from "@/components/SlideShow";
+import { metadata } from "./layout";
 
 export default function Home() {
   return (
